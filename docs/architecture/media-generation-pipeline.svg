@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="830" viewBox="0 0 1120 830" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC','WenQuanYi Zen Hei',sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3573d5"/>
+    </marker>
+    <marker id="arrg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5f6368"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="46" font-size="22" font-weight="700" fill="#1a2b4a">图片 / 材料 / PPT 生成 — 端到端架构（DSH 平台内主链路）</text>
+  <text x="40" y="72" font-size="13" fill="#5f6368">v1 · 2026-11-02 · 实线框 = 已安装/现可用 · 虚线框 = 推荐或参考项（未部署）</text>
+
+  <!-- touchpoints -->
+  <rect x="40" y="95" width="180" height="52" rx="8" fill="#ffffff" stroke="#5f6368" stroke-width="1.4"/>
+  <text x="130" y="117" font-size="13.5" font-weight="700" fill="#202124" text-anchor="middle">微信（你）</text>
+  <text x="130" y="136" font-size="11" fill="#5f6368" text-anchor="middle">对话入口 / 结果推送</text>
+
+  <rect x="250" y="95" width="330" height="52" rx="8" fill="#ffffff" stroke="#5f6368" stroke-width="1.4"/>
+  <text x="415" y="117" font-size="13.5" font-weight="700" fill="#202124" text-anchor="middle">DSH Web GUI</text>
+  <text x="415" y="136" font-size="11" fill="#5f6368" text-anchor="middle">设置 · 插件市场 · 定时任务页 · 图像画廊/Studio</text>
+
+  <!-- host container -->
+  <rect x="40" y="165" width="640" height="430" rx="10" fill="#eef5ff" stroke="#2f6fd6" stroke-width="1.8"/>
+  <text x="58" y="192" font-size="14.5" font-weight="700" fill="#2f6fd6">DSH 宿主（本体 · Everything is a Plugin）</text>
+
+  <!-- L1 scheduling -->
+  <rect x="60" y="205" width="600" height="48" rx="6" fill="#dbe9ff" stroke="#2f6fd6" stroke-width="1.3"/>
+  <text x="74" y="225" font-size="13" font-weight="700" fill="#1a2b4a">① 调度 · dsh-tasks（已装）</text>
+  <text x="74" y="243" font-size="11" fill="#3c4657">cron 定时：到点自动新建 agent 会话并提交提示词 · 立即运行 · 执行记录 · 可绑定工作区/模型</text>
+
+  <!-- L2 orchestration -->
+  <rect x="60" y="265" width="600" height="48" rx="6" fill="#e8f0fe" stroke="#2f6fd6" stroke-width="1.3"/>
+  <text x="74" y="285" font-size="13" font-weight="700" fill="#1a2b4a">② 编排 · Agent 会话（DSH 本体，无需额外安装）</text>
+  <text x="74" y="303" font-size="11" fill="#3c4657">选题 → 大纲 → 各页文案 → 生图提示词 → 组装指令 → 质检；会话产物挂到工作区</text>
+
+  <!-- L3 capability plugins -->
+  <text x="60" y="338" font-size="12" font-weight="700" fill="#5f6368">③ 能力插件层（编排层按需调用）</text>
+  <rect x="60" y="348" width="192" height="100" rx="6" fill="#ffffff" stroke="#2f6fd6" stroke-width="1.5"/>
+  <text x="156" y="368" font-size="12.5" font-weight="700" fill="#1a2b4a" text-anchor="middle">dsh-image-gen（已装）</text>
+  <text x="156" y="386" font-size="10.8" fill="#3c4657" text-anchor="middle">文生图 / 图生图 / 连续修图</text>
+  <text x="156" y="402" font-size="10.8" fill="#3c4657" text-anchor="middle">画廊 · Studio 批量 · 多模型对比</text>
+  <text x="156" y="418" font-size="10.8" fill="#3c4657" text-anchor="middle">Provider：OpenAI Images</text>
+  <text x="156" y="434" font-size="10.8" fill="#3c4657" text-anchor="middle">或 OpenAI 兼容中转</text>
+
+  <rect x="264" y="348" width="192" height="100" rx="6" fill="#ffffff" stroke="#2f6fd6" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="360" y="368" font-size="12.5" font-weight="700" fill="#1a2b4a" text-anchor="middle">pptwise（推荐装）</text>
+  <text x="360" y="386" font-size="10.8" fill="#3c4657" text-anchor="middle">本地生成可编辑 .pptx</text>
+  <text x="360" y="402" font-size="10.8" fill="#3c4657" text-anchor="middle">版式 / 母版 / 图表</text>
+  <text x="360" y="418" font-size="10.8" fill="#3c4657" text-anchor="middle">MIT · 无需 API Key</text>
+  <text x="360" y="434" font-size="10.8" fill="#3c4657" text-anchor="middle">负责「图片→PPT」组装</text>
+
+  <rect x="468" y="348" width="192" height="100" rx="6" fill="#ffffff" stroke="#2f6fd6" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="564" y="368" font-size="12.5" font-weight="700" fill="#1a2b4a" text-anchor="middle">dsh-office-tools（推荐装）</text>
+  <text x="564" y="386" font-size="10.8" fill="#3c4657" text-anchor="middle">Word / Excel / PowerPoint</text>
+  <text x="564" y="402" font-size="10.8" fill="#3c4657" text-anchor="middle">创建 · 读取 · 更新</text>
+  <text x="564" y="418" font-size="10.8" fill="#3c4657" text-anchor="middle">MIT · 支持 PPT 嵌图</text>
+  <text x="564" y="434" font-size="10.8" fill="#3c4657" text-anchor="middle">负责「材料」DOCX/XLSX</text>
+
+  <!-- L4 delivery -->
+  <rect x="60" y="462" width="600" height="48" rx="6" fill="#e6f4ea" stroke="#188038" stroke-width="1.4"/>
+  <text x="74" y="482" font-size="13" font-weight="700" fill="#0d5229">④ 交付 · 归档 + 推送</text>
+  <text x="74" y="500" font-size="11" fill="#2d5a3d">产出文件落盘 → 阶段性成果直接合入 ai-dev main → 微信源会话推送当期提醒</text>
+
+  <!-- optional -->
+  <rect x="60" y="524" width="600" height="42" rx="6" fill="#fafafa" stroke="#9aa0a6" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="74" y="541" font-size="11.5" font-weight="700" fill="#5f6368">可选扩展 · dsh-univer-office（654★）：对话内 Univer 办公工作台，表格/文档/演示，导出标准 Office</text>
+  <text x="74" y="558" font-size="11" fill="#80868b">触发场景：需要在 GUI 里人工精修交付物时再装；日常自动化链路不依赖它</text>
+
+  <!-- external column -->
+  <rect x="710" y="165" width="370" height="108" rx="8" fill="#fdf2f2" stroke="#c5221f" stroke-width="1.5"/>
+  <text x="895" y="187" font-size="13.5" font-weight="700" fill="#a50e0e" text-anchor="middle">OpenAI Images API（外部服务）</text>
+  <text x="895" y="207" font-size="11" fill="#5f2120" text-anchor="middle">POST /v1/images/generations · /v1/images/edits</text>
+  <text x="895" y="224" font-size="11" fill="#5f2120" text-anchor="middle">gpt-image-2.5-flare（快 · 探索草稿） · sunburst（精修 · 一致性）</text>
+  <text x="895" y="241" font-size="11" fill="#5f2120" text-anchor="middle">gpt-image-2 · 任意 16 倍数分辨率至 4K · 透明底 · 流式</text>
+  <text x="895" y="260" font-size="10.5" fill="#a50e0e" text-anchor="middle">※ 本机直连不通：走兼容中转 Base URL 或订阅 OAuth 通道</text>
+
+  <rect x="710" y="291" width="370" height="64" rx="8" fill="#e6f4ea" stroke="#188038" stroke-width="1.5"/>
+  <text x="895" y="313" font-size="13.5" font-weight="700" fill="#0d5229" text-anchor="middle">GitHub · EnochLi15/ai-dev（归档仓）</text>
+  <text x="895" y="332" font-size="11" fill="#2d5a3d" text-anchor="middle">docs/architecture（架构，显眼位） · docs/research（调研）</text>
+  <text x="895" y="348" font-size="11" fill="#2d5a3d" text-anchor="middle">实现与文档分离 · 阶段性成果直接合入 main</text>
+
+  <rect x="710" y="375" width="370" height="132" rx="8" fill="#fafafa" stroke="#9aa0a6" stroke-width="1.3" stroke-dasharray="7 5"/>
+  <text x="895" y="397" font-size="12.5" font-weight="700" fill="#5f6368" text-anchor="middle">参考开源（选型对照 · 不部署）</text>
+  <text x="726" y="418" font-size="11" fill="#5f6368">· banana-slides 15.9k★ — 独立 AI-PPT 应用（模板图→整页生成→可编辑导出）</text>
+  <text x="726" y="437" font-size="11" fill="#5f6368">· codex-ppt-skill 7.6k★ — 大纲规划→逐页生图→脚本组装 pptx（skill 形态）</text>
+  <text x="726" y="456" font-size="11" fill="#5f6368">· gpt-image2-ppt-skills 1.4k★ — 专为 gpt-image-2，可仿任意 .pptx 模板</text>
+  <text x="726" y="475" font-size="11" fill="#5f6368">· anthropics/skills 186k★ — 官方 pptx/docx/xlsx 原生文档技能（OOXML）</text>
+  <text x="726" y="496" font-size="10.5" fill="#80868b">用途：工作流范本与能力对标；主链路出问题时的替代路线</text>
+
+  <!-- arrows inside host -->
+  <line x1="360" y1="253" x2="360" y2="263" stroke="#3573d5" stroke-width="1.6" marker-end="url(#arr)"/>
+  <text x="368" y="261" font-size="10" fill="#5f6368">到点触发</text>
+  <line x1="156" y1="313" x2="156" y2="346" stroke="#3573d5" stroke-width="1.6" marker-end="url(#arr)"/>
+  <line x1="360" y1="313" x2="360" y2="346" stroke="#3573d5" stroke-width="1.6" marker-end="url(#arr)"/>
+  <line x1="564" y1="313" x2="564" y2="346" stroke="#3573d5" stroke-width="1.6" marker-end="url(#arr)"/>
+  <line x1="156" y1="448" x2="156" y2="460" stroke="#3573d5" stroke-width="1.6" marker-end="url(#arr)"/>
+  <line x1="360" y1="448" x2="360" y2="460" stroke="#3573d5" stroke-width="1.6" marker-end="url(#arr)"/>
+  <line x1="564" y1="448" x2="564" y2="460" stroke="#3573d5" stroke-width="1.6" marker-end="url(#arr)"/>
+
+  <!-- touchpoint arrows -->
+  <line x1="130" y1="147" x2="130" y2="163" stroke="#5f6368" stroke-width="1.5" marker-end="url(#arrg)" marker-start="url(#arrg)"/>
+  <line x1="415" y1="147" x2="415" y2="163" stroke="#5f6368" stroke-width="1.5" marker-end="url(#arrg)" marker-start="url(#arrg)"/>
+
+  <!-- cross arrows -->
+  <line x1="252" y1="398" x2="708" y2="230" stroke="#c5221f" stroke-width="1.6" marker-end="url(#arr)" marker-start="url(#arr)"/>
+  <text x="580" y="330" font-size="10.5" fill="#a50e0e">生图请求 / 返回 base64</text>
+  <line x1="660" y1="486" x2="708" y2="330" stroke="#188038" stroke-width="1.6" marker-end="url(#arr)"/>
+  <text x="648" y="452" font-size="10.5" fill="#0d5229">commit / push</text>
+
+  <!-- pipeline strip -->
+  <text x="40" y="627" font-size="13" font-weight="700" fill="#1a2b4a">单次生成流水线（一次「帮我做一份XX的PPT/材料」的完整路径）</text>
+  <g>
+    <rect x="40"  y="640" width="148" height="58" rx="6" fill="#e8f0fe" stroke="#2f6fd6" stroke-width="1.3"/>
+    <rect x="200" y="640" width="148" height="58" rx="6" fill="#e8f0fe" stroke="#2f6fd6" stroke-width="1.3"/>
+    <rect x="360" y="640" width="148" height="58" rx="6" fill="#e8f0fe" stroke="#2f6fd6" stroke-width="1.3"/>
+    <rect x="520" y="640" width="148" height="58" rx="6" fill="#e8f0fe" stroke="#2f6fd6" stroke-width="1.3"/>
+    <rect x="680" y="640" width="148" height="58" rx="6" fill="#e8f0fe" stroke="#2f6fd6" stroke-width="1.3"/>
+    <rect x="840" y="640" width="148" height="58" rx="6" fill="#e6f4ea" stroke="#188038" stroke-width="1.3"/>
+    <line x1="188" y1="669" x2="199" y2="669" stroke="#3573d5" stroke-width="1.6" marker-end="url(#arr)"/>
+    <line x1="348" y1="669" x2="359" y2="669" stroke="#3573d5" stroke-width="1.6" marker-end="url(#arr)"/>
+    <line x1="508" y1="669" x2="519" y2="669" stroke="#3573d5" stroke-width="1.6" marker-end="url(#arr)"/>
+    <line x1="668" y1="669" x2="679" y2="669" stroke="#3573d5" stroke-width="1.6" marker-end="url(#arr)"/>
+    <line x1="828" y1="669" x2="839" y2="669" stroke="#3573d5" stroke-width="1.6" marker-end="url(#arr)"/>
+    <text x="114" y="662" font-size="12" font-weight="700" fill="#1a2b4a" text-anchor="middle">① 输入</text>
+    <text x="114" y="680" font-size="10.3" fill="#3c4657" text-anchor="middle">选题 / 素材 / 模板参考</text>
+    <text x="274" y="662" font-size="12" font-weight="700" fill="#1a2b4a" text-anchor="middle">② 规划</text>
+    <text x="274" y="680" font-size="10.3" fill="#3c4657" text-anchor="middle">大纲 + 各页文案（agent）</text>
+    <text x="434" y="662" font-size="12" font-weight="700" fill="#1a2b4a" text-anchor="middle">③ 生图</text>
+    <text x="434" y="680" font-size="10.3" fill="#3c4657" text-anchor="middle">flare 探索 → sunburst 终稿</text>
+    <text x="594" y="662" font-size="12" font-weight="700" fill="#1a2b4a" text-anchor="middle">④ 组装</text>
+    <text x="594" y="680" font-size="10.3" fill="#3c4657" text-anchor="middle">pptwise 出 PPTX / DOCX 材料</text>
+    <text x="754" y="662" font-size="12" font-weight="700" fill="#1a2b4a" text-anchor="middle">⑤ 质检</text>
+    <text x="754" y="680" font-size="10.3" fill="#3c4657" text-anchor="middle">文字校对 · 数字/链接回源</text>
+    <text x="914" y="662" font-size="12" font-weight="700" fill="#0d5229" text-anchor="middle">⑥ 交付</text>
+    <text x="914" y="680" font-size="10.3" fill="#2d5a3d" text-anchor="middle">归档 main · 微信提醒</text>
+  </g>
+
+  <!-- problems solved -->
+  <rect x="40" y="718" width="948" height="94" rx="8" fill="#fffbe6" stroke="#d4a017" stroke-width="1.4"/>
+  <text x="56" y="742" font-size="13" font-weight="700" fill="#7a5c00">解决的问题（痛点 → 方案）</text>
+  <text x="56" y="764" font-size="11.2" fill="#5f4b00">① 中文汇报材料视觉质量差、排版耗时 → 整页视觉稿由 gpt-image-2.5 自动生成，人工只做终审；② 风格/模板一致性 → 参考图+「只改X保持Y不变」约束迭代</text>
+  <text x="56" y="783" font-size="11.2" fill="#5f4b00">③ 交付物必须可编辑 → pptwise/dsh-office-tools 生成原生 PPTX/DOCX（非截图）；④ 定时批量产出 → dsh-tasks 到点自动开新会话跑完整流水线；⑤ 成果沉淀 → 阶段性产物直接归档 ai-dev（文档/实现分离）</text>
+  <text x="56" y="802" font-size="11.2" fill="#5f4b00">选型原则：不是每个都装——主链路 4 件（dsh-tasks + 本体 agent + dsh-image-gen + pptwise/office-tools），其余仅作对照与备用路线</text>
+</svg>
