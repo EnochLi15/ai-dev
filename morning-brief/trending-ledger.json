@@ -8,20 +8,25 @@
     {"repo": "wangzan101/Mika", "category": "agent-ondevice", "born": "2026-10-29", "first_shown": "2026-11-03", "stars_at_show": 4995, "featured": true},
     {"repo": "ccch1mneyyy/dsh-Go", "category": "agent-harness", "born": "2026-10-25", "first_shown": "2026-11-03", "stars_at_show": 5568, "featured": true},
     {"repo": "jmanico/grim-prompter", "category": "security", "born": "2026-10-28", "first_shown": "2026-11-03", "stars_at_show": 341, "featured": true},
+    {"repo": "storytold/craft-anything", "category": "ai-understanding", "born": "2026-10-31", "first_shown": "2026-11-03", "stars_at_show": 4082, "featured": true},
+    {"repo": "daveebbelaar/bama", "category": "agent-skill", "born": "2026-10-24", "first_shown": "2026-11-03", "stars_at_show": 1441, "featured": true},
+    {"repo": "elvarofficial/teardown", "category": "coding-skill", "born": "2026-10-30", "first_shown": "2026-11-03", "stars_at_show": 1245, "featured": true},
+    {"repo": "emanuele-em/kanzo", "category": "agent-tooling", "born": "2026-10-25", "first_shown": "2026-11-03", "stars_at_show": 875, "featured": true},
     {"repo": "modelflare-ai/AnyModelBot", "category": "agent-product", "born": "2026-10-27", "first_shown": "2026-11-03", "stars_at_show": 1286, "featured": false},
     {"repo": "Charonyuu/whatsmyagentdoing", "category": "devtools", "born": "2026-10-23", "first_shown": "2026-11-03", "stars_at_show": 368, "featured": false},
-    {"repo": "wici-ai/inferssd", "category": "inference", "born": "2026-10-22", "first_shown": "2026-11-03", "stars_at_show": 243, "featured": false}
+    {"repo": "wici-ai/inferssd", "category": "inference", "born": "2026-10-22", "first_shown": "2026-11-03", "stars_at_show": 243, "featured": false},
+    {"repo": "yjid/kensaku", "category": "search", "born": "2026-10-24", "first_shown": "2026-11-03", "stars_at_show": 564, "featured": false}
   ],
   "candidates_pool_unused": [
-    {"repo": "patch-gg/pixelfx", "stars": 3267, "category": "coding-skill", "note": "像素风特效 + Claude Code skill，留作后续候选"},
+    {"repo": "patch-gg/pixelfx", "stars": 3484, "category": "coding-skill", "note": "像素风特效 + Claude Code skill，留作后续候选"},
     {"repo": "haydenschmitty/floorplan", "stars": 2087, "category": "devtools", "note": "代码库交互式地图"},
-    {"repo": "daveebbelaar/bama", "stars": 1393, "category": "agent-skill", "note": "Build Any Mac App agent skills"},
-    {"repo": "emanuele-em/kanzo", "stars": 787, "category": "agent-tooling", "note": "人与 agent 共用的自托管看板"},
     {"repo": "jackwener/DSH-Android", "stars": 746, "category": "agent-harness", "note": "免 ROOT 安卓跑 DeepSeek Harness"},
-    {"repo": "N1nEmAn/sapper-v2", "stars": 588, "category": "security-agent", "note": "自主渗透测试 agent 军团"},
+    {"repo": "N1nEmAn/sapper-v2", "stars": 597, "category": "security-agent", "note": "自主渗透测试 agent 军团"},
     {"repo": "Balanov/uncut", "stars": 540, "category": "coding-harness", "note": "7MB 无头 coding agent harness"},
-    {"repo": "wanghao-SunSky/cs329z-chinese", "stars": 432, "category": "learning", "note": "斯坦福 CS329Z 中文教程"},
-    {"repo": "0xS4N4TG/kinetograph", "stars": 440, "category": "video-agent", "note": "面向 agent 的程序化视频引擎"},
-    {"repo": "yjid/kensaku", "stars": 519, "category": "search", "note": "本地文档/代码/截图即时搜索"}
+    {"repo": "wanghao-SunSky/cs329z-chinese", "stars": 445, "category": "learning", "note": "斯坦福 CS329Z 中文教程"},
+    {"repo": "0xS4N4TG/kinetograph", "stars": 444, "category": "video-agent", "note": "面向 agent 的程序化视频引擎"},
+    {"repo": "lexifina/global-law", "stars": 1701, "category": "knowledge", "note": "各国法律做成单一 git 历史（非 AI 核心，观察）"},
+    {"repo": "Arjun-Ingole/hop", "stars": 1386, "category": "devtools", "note": "免 U 盘装 Linux（非 AI，仅记录）"},
+    {"repo": "mutonby/agentring", "stars": 260, "category": "agent-voice", "note": "agent 与电话 VoIP 互呼"}
   ]
 }
