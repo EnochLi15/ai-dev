@@ -1,37 +1,261 @@
 {
-  "issue": "2026-11-04",
+  "issue": "2026-11-05",
   "note": "GitHub 趋势榜跨期去重台账：记录每期已展示项目与当时星标数。后续各期从周榜候选池中排除这些项目（除非触发回访规则：星标较首次收录时暴涨 >=3 倍，或有重大版本发布，才以一句话'回访'形式再提）。",
   "revisit_rule": "stars_now >= 3 * stars_at_show 或重大版本",
   "shown": [
-    {"repo": "deepseek-ai/dsh-superagent-prototype", "category": "agent", "born": "2026-10-31", "first_shown": "2026-11-03", "stars_at_show": 11817, "featured": true},
-    {"repo": "heydamir/unslop", "category": "coding-skill", "born": "2026-10-29", "first_shown": "2026-11-03", "stars_at_show": 5656, "featured": true},
-    {"repo": "wangzan101/Mika", "category": "agent-ondevice", "born": "2026-10-29", "first_shown": "2026-11-03", "stars_at_show": 4995, "featured": true},
-    {"repo": "ccch1mneyyy/dsh-Go", "category": "agent-harness", "born": "2026-10-25", "first_shown": "2026-11-03", "stars_at_show": 5568, "featured": true},
-    {"repo": "jmanico/grim-prompter", "category": "security", "born": "2026-10-28", "first_shown": "2026-11-03", "stars_at_show": 341, "featured": true},
-    {"repo": "storytold/craft-anything", "category": "ai-understanding", "born": "2026-10-31", "first_shown": "2026-11-03", "stars_at_show": 4082, "featured": true},
-    {"repo": "daveebbelaar/bama", "category": "agent-skill", "born": "2026-10-24", "first_shown": "2026-11-03", "stars_at_show": 1441, "featured": true},
-    {"repo": "elvarofficial/teardown", "category": "coding-skill", "born": "2026-10-30", "first_shown": "2026-11-03", "stars_at_show": 1245, "featured": true},
-    {"repo": "emanuele-em/kanzo", "category": "agent-tooling", "born": "2026-10-25", "first_shown": "2026-11-03", "stars_at_show": 875, "featured": true},
-    {"repo": "modelflare-ai/AnyModelBot", "category": "agent-product", "born": "2026-10-27", "first_shown": "2026-11-03", "stars_at_show": 1286, "featured": false},
-    {"repo": "Charonyuu/whatsmyagentdoing", "category": "devtools", "born": "2026-10-23", "first_shown": "2026-11-03", "stars_at_show": 368, "featured": false},
-    {"repo": "wici-ai/inferssd", "category": "inference", "born": "2026-10-22", "first_shown": "2026-11-03", "stars_at_show": 243, "featured": false},
-    {"repo": "yjid/kensaku", "category": "search", "born": "2026-10-24", "first_shown": "2026-11-03", "stars_at_show": 564, "featured": false},
-    {"repo": "caru-ini/stack-diagram", "category": "agent-skill", "born": "2026-11-01", "first_shown": "2026-11-04", "stars_at_show": 1514, "featured": true},
-    {"repo": "Verlintas/NOIR", "category": "security", "born": "2026-10-29", "first_shown": "2026-11-04", "stars_at_show": 1756, "featured": true},
-    {"repo": "Pika-Labs/Pika-H3-Flex", "category": "inference", "born": "2026-10-29", "first_shown": "2026-11-04", "stars_at_show": 1273, "featured": true},
-    {"repo": "phone-harness/mcp", "category": "mcp", "born": "2026-10-23", "first_shown": "2026-11-04", "stars_at_show": 495, "featured": true},
-    {"repo": "Balanov/skein", "category": "agent-orchestration", "born": "2026-11-02", "first_shown": "2026-11-04", "stars_at_show": 260, "featured": false}
+    {
+      "repo": "deepseek-ai/dsh-superagent-prototype",
+      "category": "agent",
+      "born": "2026-10-31",
+      "first_shown": "2026-11-03",
+      "stars_at_show": 11817,
+      "featured": true
+    },
+    {
+      "repo": "heydamir/unslop",
+      "category": "coding-skill",
+      "born": "2026-10-29",
+      "first_shown": "2026-11-03",
+      "stars_at_show": 5656,
+      "featured": true
+    },
+    {
+      "repo": "wangzan101/Mika",
+      "category": "agent-ondevice",
+      "born": "2026-10-29",
+      "first_shown": "2026-11-03",
+      "stars_at_show": 4995,
+      "featured": true
+    },
+    {
+      "repo": "ccch1mneyyy/dsh-Go",
+      "category": "agent-harness",
+      "born": "2026-10-25",
+      "first_shown": "2026-11-03",
+      "stars_at_show": 5568,
+      "featured": true
+    },
+    {
+      "repo": "jmanico/grim-prompter",
+      "category": "security",
+      "born": "2026-10-28",
+      "first_shown": "2026-11-03",
+      "stars_at_show": 341,
+      "featured": true
+    },
+    {
+      "repo": "storytold/craft-anything",
+      "category": "ai-understanding",
+      "born": "2026-10-31",
+      "first_shown": "2026-11-03",
+      "stars_at_show": 4082,
+      "featured": true
+    },
+    {
+      "repo": "daveebbelaar/bama",
+      "category": "agent-skill",
+      "born": "2026-10-24",
+      "first_shown": "2026-11-03",
+      "stars_at_show": 1441,
+      "featured": true
+    },
+    {
+      "repo": "elvarofficial/teardown",
+      "category": "coding-skill",
+      "born": "2026-10-30",
+      "first_shown": "2026-11-03",
+      "stars_at_show": 1245,
+      "featured": true
+    },
+    {
+      "repo": "emanuele-em/kanzo",
+      "category": "agent-tooling",
+      "born": "2026-10-25",
+      "first_shown": "2026-11-03",
+      "stars_at_show": 875,
+      "featured": true
+    },
+    {
+      "repo": "modelflare-ai/AnyModelBot",
+      "category": "agent-product",
+      "born": "2026-10-27",
+      "first_shown": "2026-11-03",
+      "stars_at_show": 1286,
+      "featured": false
+    },
+    {
+      "repo": "Charonyuu/whatsmyagentdoing",
+      "category": "devtools",
+      "born": "2026-10-23",
+      "first_shown": "2026-11-03",
+      "stars_at_show": 368,
+      "featured": false
+    },
+    {
+      "repo": "wici-ai/inferssd",
+      "category": "inference",
+      "born": "2026-10-22",
+      "first_shown": "2026-11-03",
+      "stars_at_show": 243,
+      "featured": false
+    },
+    {
+      "repo": "yjid/kensaku",
+      "category": "search",
+      "born": "2026-10-24",
+      "first_shown": "2026-11-03",
+      "stars_at_show": 564,
+      "featured": false
+    },
+    {
+      "repo": "caru-ini/stack-diagram",
+      "category": "agent-skill",
+      "born": "2026-11-01",
+      "first_shown": "2026-11-04",
+      "stars_at_show": 1514,
+      "featured": true
+    },
+    {
+      "repo": "Verlintas/NOIR",
+      "category": "security",
+      "born": "2026-10-29",
+      "first_shown": "2026-11-04",
+      "stars_at_show": 1756,
+      "featured": true
+    },
+    {
+      "repo": "Pika-Labs/Pika-H3-Flex",
+      "category": "inference",
+      "born": "2026-10-29",
+      "first_shown": "2026-11-04",
+      "stars_at_show": 1273,
+      "featured": true
+    },
+    {
+      "repo": "phone-harness/mcp",
+      "category": "mcp",
+      "born": "2026-10-23",
+      "first_shown": "2026-11-04",
+      "stars_at_show": 495,
+      "featured": true
+    },
+    {
+      "repo": "Balanov/skein",
+      "category": "agent-orchestration",
+      "born": "2026-11-02",
+      "first_shown": "2026-11-04",
+      "stars_at_show": 260,
+      "featured": false
+    },
+    {
+      "repo": "KKKKhazix/agent-autoloop",
+      "category": "agent-orchestration",
+      "born": "2026-11-03",
+      "first_shown": "2026-11-05",
+      "stars_at_show": 2425,
+      "featured": true
+    },
+    {
+      "repo": "mromidev/claude-animated-shorts",
+      "category": "agent-skill",
+      "born": "2026-11-01",
+      "first_shown": "2026-11-05",
+      "stars_at_show": 1502,
+      "featured": true
+    },
+    {
+      "repo": "anthropics/FlashProve",
+      "category": "research-zk",
+      "born": "2026-10-30",
+      "first_shown": "2026-11-05",
+      "stars_at_show": 778,
+      "featured": true
+    },
+    {
+      "repo": "brightsongwrath/personal-data-deletor-osint",
+      "category": "privacy",
+      "born": "2026-11-03",
+      "first_shown": "2026-11-05",
+      "stars_at_show": 570,
+      "featured": true
+    },
+    {
+      "repo": "wquguru/cicada",
+      "category": "productivity",
+      "born": "2026-11-01",
+      "first_shown": "2026-11-05",
+      "stars_at_show": 1114,
+      "featured": false
+    },
+    {
+      "repo": "zhanghao123vip/ai-manju-skills",
+      "category": "agent-skill",
+      "born": "2026-10-31",
+      "first_shown": "2026-11-05",
+      "stars_at_show": 571,
+      "featured": false
+    }
   ],
   "candidates_pool_unused": [
-    {"repo": "patch-gg/pixelfx", "stars": 3484, "category": "coding-skill", "note": "像素风特效 + Claude Code skill，留作后续候选"},
-    {"repo": "haydenschmitty/floorplan", "stars": 2087, "category": "devtools", "note": "代码库交互式地图"},
-    {"repo": "jackwener/DSH-Android", "stars": 746, "category": "agent-harness", "note": "免 ROOT 安卓跑 DeepSeek Harness"},
-    {"repo": "N1nEmAn/sapper-v2", "stars": 597, "category": "security-agent", "note": "自主渗透测试 agent 军团"},
-    {"repo": "Balanov/uncut", "stars": 540, "category": "coding-harness", "note": "7MB 无头 coding agent harness"},
-    {"repo": "wanghao-SunSky/cs329z-chinese", "stars": 445, "category": "learning", "note": "斯坦福 CS329Z 中文教程"},
-    {"repo": "0xS4N4TG/kinetograph", "stars": 444, "category": "video-agent", "note": "面向 agent 的程序化视频引擎"},
-    {"repo": "lexifina/global-law", "stars": 1701, "category": "knowledge", "note": "各国法律做成单一 git 历史（非 AI 核心，观察）"},
-    {"repo": "Arjun-Ingole/hop", "stars": 1386, "category": "devtools", "note": "免 U 盘装 Linux（非 AI，仅记录）"},
-    {"repo": "mutonby/agentring", "stars": 260, "category": "agent-voice", "note": "agent 与电话 VoIP 互呼"}
+    {
+      "repo": "patch-gg/pixelfx",
+      "stars": 3484,
+      "category": "coding-skill",
+      "note": "像素风特效 + Claude Code skill，留作后续候选"
+    },
+    {
+      "repo": "haydenschmitty/floorplan",
+      "stars": 2087,
+      "category": "devtools",
+      "note": "代码库交互式地图"
+    },
+    {
+      "repo": "jackwener/DSH-Android",
+      "stars": 746,
+      "category": "agent-harness",
+      "note": "免 ROOT 安卓跑 DeepSeek Harness"
+    },
+    {
+      "repo": "N1nEmAn/sapper-v2",
+      "stars": 597,
+      "category": "security-agent",
+      "note": "自主渗透测试 agent 军团"
+    },
+    {
+      "repo": "Balanov/uncut",
+      "stars": 540,
+      "category": "coding-harness",
+      "note": "7MB 无头 coding agent harness"
+    },
+    {
+      "repo": "wanghao-SunSky/cs329z-chinese",
+      "stars": 445,
+      "category": "learning",
+      "note": "斯坦福 CS329Z 中文教程"
+    },
+    {
+      "repo": "0xS4N4TG/kinetograph",
+      "stars": 444,
+      "category": "video-agent",
+      "note": "面向 agent 的程序化视频引擎"
+    },
+    {
+      "repo": "lexifina/global-law",
+      "stars": 1701,
+      "category": "knowledge",
+      "note": "各国法律做成单一 git 历史（非 AI 核心，观察）"
+    },
+    {
+      "repo": "Arjun-Ingole/hop",
+      "stars": 1386,
+      "category": "devtools",
+      "note": "免 U 盘装 Linux（非 AI，仅记录）"
+    },
+    {
+      "repo": "mutonby/agentring",
+      "stars": 260,
+      "category": "agent-voice",
+      "note": "agent 与电话 VoIP 互呼"
+    }
   ]
 }
