@@ -1,5 +1,5 @@
 {
-  "issue": "2026-11-18",
+  "issue": "2026-11-21",
   "note": "GitHub 趋势榜跨期去重台账：记录每期已展示项目与当时星标数。后续各期从周榜候选池中排除这些项目（除非触发回访规则：星标较首次收录时暴涨 >=3 倍，或有重大版本发布，才以一句话'回访'形式再提）。",
   "revisit_rule": "stars_now >= 3 * stars_at_show 或重大版本",
   "shown": [
@@ -329,6 +329,54 @@
       "born": "2026-11-16",
       "first_shown": "2026-11-18",
       "stars_at_show": 2768,
+      "featured": false
+    },
+    {
+      "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
+      "category": "mcp",
+      "born": "2026-11-19",
+      "first_shown": "2026-11-21",
+      "stars_at_show": 1772,
+      "featured": true
+    },
+    {
+      "repo": "iamajmeena/neonclipping",
+      "category": "video-ai",
+      "born": "2026-11-19",
+      "first_shown": "2026-11-21",
+      "stars_at_show": 1241,
+      "featured": true
+    },
+    {
+      "repo": "siliconjungle/shapeshift-labs-ink-studio",
+      "category": "graphics",
+      "born": "2026-11-16",
+      "first_shown": "2026-11-21",
+      "stars_at_show": 869,
+      "featured": true
+    },
+    {
+      "repo": "fendouai/ViralForge",
+      "category": "video-agent",
+      "born": "2026-11-11",
+      "first_shown": "2026-11-21",
+      "stars_at_show": 429,
+      "featured": true
+    },
+    {
+      "repo": "nilbuild/stick-scene",
+      "category": "agent-skill",
+      "born": "2026-11-15",
+      "first_shown": "2026-11-21",
+      "stars_at_show": 536,
+      "featured": false
+    },
+    {
+      "repo": "MSNightmare/FastUnlock",
+      "category": "security",
+      "born": "2026-11-19",
+      "first_shown": "2026-11-21",
+      "stars_at_show": 576,
       "featured": false
     }
   ],
